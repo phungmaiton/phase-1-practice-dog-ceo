@@ -59,3 +59,21 @@ const renderFilteredBreeds = (breeds) => {
         dogBreeds.appendChild(li);
     })
 }
+
+// const filterList = (breeds) => {
+//     breedDropDown.addEventListener('change', (event) => {
+//         const value = event.target.value
+//         const filterBreeds = breeds.filter(breed => breed.startsWith(value))
+//         renderedList(filterBreeds);
+//     })
+// }
+
+// const renderedList = (breeds) => {
+//     dogBreeds.textContent = '';
+//     breeds.forEach(breed => {
+//         let li = document.createAttribute('li');
+//         li.textConnent = breed;
+//         dogBreeds.appendChild(li);
+//     })
+// }
+
